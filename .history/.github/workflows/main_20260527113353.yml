@@ -8,8 +8,8 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Maven test
-      run: mvn test 
-
-    - name: Checkstyle
-      run: mvn checkstyle:checkstyle
+      run: mvn paramName:
+        Description: 
+        Type: List<AWS::EC2::SecurityGroup::Id>
+        Default: 
      
